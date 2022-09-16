@@ -4,8 +4,11 @@
  * print_numbers - a function that prints the numbers, from 0 to 9
  * Return: 0-9 followed by newline
  */
-int main(void)
+void print_numbers(void)
 {
-	print_numbers();
-	return (0);
+	int i = '0';
+
+	for (; i <= '9'; i++)
+		_putchar(i);
+	_putchar('\n');
 }
