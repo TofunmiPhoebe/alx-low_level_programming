@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include "holberton.h"
+#include <stdlib.h>
 
 /**
  * main - Entry Point
